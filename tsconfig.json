@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "removeComments": true,
+        "outDir": "dist", // Aquí exportará los archivos de salida de la compilación
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "watch": true, // Compilador se ejecutará en modo Demonio
+        "rootDir": "src",
+        "experimentalDecorators": true
+    },
+    "include": [ // Archivos de salida de la compilación los buscará aquí
+        "src/**/*"
+    ],
+    "exclude": [ // Cuando se compile los ficheros de esta ruta serán ignorados
+        "node_modules"
+    ]
+}
